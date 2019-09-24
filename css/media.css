@@ -1,4 +1,8 @@
 @media (max-width: 850px) {
+    #menu_list{
+        width: 100%;
+        height: 100%;
+    }
     .wrapper_contact{
         flex-direction: column;
         justify-content: flex-start;
@@ -30,7 +34,56 @@
     .wrapper_contact .name_block h1 span{
         padding-right: 0px;
     }
+    .wrapper_advantages .name_block h1 span{
+        padding-right: 0px;
+    }
+    .wrapper_development .name_block h1 span{
+        padding-right: 0px;
+    }
+    .wrapper_targeting .name_block h1 span{
+        padding-right: 0px;
+    }
     .wrapper_service ul {
         padding-left: 20px;
+    }
+
+
+    .wrapper_advantages .advantages {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+      }
+      .wrapper_advantages .advantages .advantage {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 50px 0px;
+      }
+
+    .wrapper_development .trades {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+      .wrapper_targeting .trades {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+    .wrapper_development .trades .trade {
+        width: 90%;
+        margin: 25px 0px;
+      }
+      .wrapper_targeting .trades .trade {
+        width: 90%;
+        margin: 25px 0px;
       }
 }

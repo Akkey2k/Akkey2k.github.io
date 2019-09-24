@@ -15,6 +15,7 @@
   margin-left: auto;
   margin-right: auto;
   font-family: 'MullerLight', sans-serif;
+  cursor: pointer;
 }
 #menu_list button {
   float: right;
