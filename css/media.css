@@ -1,0 +1,36 @@
+@media (max-width: 850px) {
+    .wrapper_contact{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .wrapper_service .services {
+        flex-direction: column;
+    }
+    .wrapper_service .services .target{
+        margin-top: 50px;
+    }
+    .wrapper_service .name_block h1 span{
+        font-size: 30px;
+    }
+    .wrapper_main .r_side img{
+        width: 90%;
+    }
+    .wrapper_main .l_side h1{
+        font-size: 30px;
+        margin-bottom: 40px;
+        line-height: 32px;
+    }
+    .wrapper_menu .l_side span{
+        display: none;
+    }
+    .wrapper_service .name_block h1 span{
+        padding-right: 0px;
+    }
+    .wrapper_contact .name_block h1 span{
+        padding-right: 0px;
+    }
+    .wrapper_service ul {
+        padding-left: 20px;
+      }
+}
