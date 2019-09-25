@@ -372,7 +372,7 @@ main {
 }
 .wrapper_development .trades .trade {
   width: 25%;
-  height: 400px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
