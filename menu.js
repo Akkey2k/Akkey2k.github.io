@@ -7,6 +7,19 @@ $(document).ready(function() {
     $("#close_menu").click(function(){
         $("#menu_list").fadeOut("slow");
     });
+    $(".open_req").click(function(){
+        $("#request").fadeIn("slow");
+    });
+
+    $("#close_req").click(function(){
+        $("#request").fadeOut("slow");
+    });
+    // отправлено
+    $(".btn").click(function(){
+        $(".inp").fadeOut("slow");
+        $(".btn").fadeOut("slow");
+        $(".fade_mess").fadeIn("slow");
+    });
     // скрол
     $("#services").click(function (){
         $('html, body').animate({

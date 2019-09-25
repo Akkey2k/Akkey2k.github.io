@@ -372,12 +372,12 @@ main {
 }
 .wrapper_development .trades .trade {
   width: 25%;
-  height: 500px;
+  height: 400px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 0px 25px;
+  padding: 50px 25px;
   border: 1px #2d2d2d solid;
 }
 .wrapper_development .trades .trade span {
@@ -398,7 +398,7 @@ main {
   text-align: center;
   font-family: MullerLight, sans-serif;
   font-size: 18px;
-  color: #f7f7f7;
+  color: #ffffff;
   background-color: #25a667;
 }
 
@@ -454,12 +454,12 @@ main {
 }
 .wrapper_targeting .trades .trade {
   width: 45%;
-  height: 500px;
+  height: 400px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 0px 25px;
+  padding: 50px 25px;
   border: 1px #2d2d2d solid;
 }
 .wrapper_targeting .trades .trade span {
@@ -480,7 +480,7 @@ main {
   text-align: center;
   font-family: MullerLight, sans-serif;
   font-size: 18px;
-  color: #f7f7f7;
+  color: #ffffff;
   background-color: #25a667;
 }
 

@@ -8,10 +8,25 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/request.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
+    <div id="request">
+        <button type="button" id="close_req"></button>
+        <div class="inputs">
+            <input type="text" name="name_req" id="name_req" required placeholder="Иван Иванов" class="inp">
+            <input type="text" name="name_req" id="main_req" required placeholder="ivan.ivanov@mail.ru" class="inp">
+            <input type="text" name="name_req" id="main_req" required placeholder="89992006889" class="inp">
+            <a class="btn">Отправить</a>
+            <p class="fade_mess">
+                Заявка отправлена!
+                <br/>
+                Вам перезвонят в ближайщее время
+            </p>
+        </div>
+    </div>
     <div id="menu_list">
         <button type="button" id="close_menu"></button>
         <p id="services">УСЛУГИ</p>
@@ -153,7 +168,7 @@
                     <p>
                         Одностраничный сайт, адаптированный для продвижения конкретного товара или услуги. Особая структура лендинга стимулирует пользователя быстрее воспринимать заданную информацию и совершать покупки.
                     </p>
-                    <a href="#!">Оставить заявку</a>
+                    <a href="#!" class="open_req">Оставить заявку</a>
                 </div>
                 <div class="trade">
                     <span>
@@ -162,7 +177,7 @@
                     <p>
                         Сайты, которые имеют несколько страниц. В рамках данной услуги мы можем разработать — корпоративный сайт и сайт-витрину (интернет-магазины без корзины).
                     </p>
-                    <a href="#!">Оставить заявку</a>
+                    <a href="#!" class="open_req">Оставить заявку</a>
                 </div>
                 <div class="trade">
                     <span>
@@ -171,7 +186,7 @@
                     <p>
                         Пакетное решение для представления услуг или небольшого количества товаров. Сайт не имеет яркого акцента на продажу товара или услуги. Он прекрасно подходит для презентации автосервиса салона красоты, юриста.
                     </p>
-                    <a href="#!">Оставить заявку</a>
+                    <a href="#!" class="open_req">Оставить заявку</a>
                 </div>
             </div>
         </div>
@@ -189,7 +204,7 @@
                     <p>
                         Это вид контекстной рекламы, который показывается в поисковой выдаче Яндекса. Если вбить в поиск Яндекса — «купить кухню», то в поиске, будут показаны объявления по данному запросу. Вы платите за каждого привлеченного посетителя, а не просто за размещение рекламного объявления.
                     </p>
-                    <a href="#!">Оставить заявку</a>
+                    <a href="#!" class="open_req">Оставить заявку</a>
                 </div>
                 <div class="trade">
                     <span>
@@ -198,7 +213,7 @@
                     <p>
                         Реклама работает по тому же принципу, что и Я.Директ, но показывается в поисковой системе Google. Клиенты частно думают, что эта реклама не так эффективна, так как в России Яндекс популярнее. Но исключив ее, вы рискуете потерять не малую долю клиентов.
                     </p>
-                    <a href="#!">Оставить заявку</a>
+                    <a href="#!" class="open_req">Оставить заявку</a>
                 </div>
             </div>
         </div>
