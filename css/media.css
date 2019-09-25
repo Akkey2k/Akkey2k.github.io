@@ -44,12 +44,25 @@
     }
     .wrapper_advantages .name_block h1 span{
         padding-right: 0px;
+        font-size: 30px;
+    }
+    .wrapper_advantages .advantages .advantage .adv_text span{
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    .wrapper_advantages .advantages .advantage .adv_text p{
+        font-size: 16px;
     }
     .wrapper_development .name_block h1 span{
         padding-right: 0px;
+        font-size: 30px;
+    }
+    .wrapper_development .trades .trade{
+        padding: 50px 0px;
     }
     .wrapper_targeting .name_block h1 span{
         padding-right: 0px;
+        font-size: 30px;
     }
     .wrapper_service ul {
         padding-left: 20px;
@@ -68,13 +81,14 @@
       .wrapper_advantages .advantages .advantage {
         width: 90%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         margin: 50px 0px;
       }
 
     .wrapper_development .trades {
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -87,11 +101,12 @@
         align-items: flex-start;
       }
     .wrapper_development .trades .trade {
-        width: 90%;
+        width: 100%;
         margin: 25px 0px;
       }
       .wrapper_targeting .trades .trade {
+        height: auto;
         width: 90%;
-        margin: 25px 0px;
-      }
+        margin: 50px 0px;
+        }
 }
