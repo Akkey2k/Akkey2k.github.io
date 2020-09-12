@@ -1,264 +1,186 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Фикачев Никита</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/request.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/media.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/font.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>DIGITAL FROG</title>
 </head>
 <body>
-    <div id="request">
-        <button type="button" id="close_req"></button>
-        <div class="inputs">
-            <input type="text" name="name_req" id="name_req" required placeholder="Иван Иванов" class="inp">
-            <input type="text" name="name_req" id="main_req" required placeholder="ivan.ivanov@mail.ru" class="inp">
-            <input type="text" name="name_req" id="main_req" required placeholder="89992006889" class="inp">
-            <a class="btn">Отправить</a>
-            <p class="fade_mess">
-                Заявка отправлена!
-                <br/>
-                Вам перезвонят в ближайщее время
-            </p>
-        </div>
-    </div>
-    <div id="menu_list">
-        <button type="button" id="close_menu"></button>
-        <p id="services">УСЛУГИ</p>
-        <p id="advantages">ПРЕИМУЩЕСТВА</p>
-        <p id="development">Разработка сайтов</p>
-        <p id="targeting">Контекстная реклама</p>
-        <p id="contacts">КОНТАКТЫ</p>
-    </div>
-    <div id="goto">
-        <img src="img/goto.svg" alt="goto">
-    </div>
-    <header>
-        <div class="wrapper_menu">
-            <div class="l_side">
-                <img src="img/logo.png" alt="logo">
-                <span>Фикачев Никита</span>
-            </div>
-            <div class="r_side" id="open_menu">
-                    <span>Меню</span>
-                    <img src="img/menu_toggle.png" alt="menu">
-            </div>
-        </div>
+    <div class="dust"></div>
+    <header id="header" class="header">
+        <nav class="nav">
+            <a href="#" class="nav__item">о нас</a>
+            <a href="#" class="nav__item">проекты</a>
+            <a href="#" class="nav__item">контакты</a>
+            <a href="#" class="nav__item">join</a>
+        </nav>
     </header>
+    <div id="menu-toggle">
+        <div id="hamburger">
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+        </div>
+        <div id="cross">
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+        </div>
+    </div>
     <main>
-        <div class="wrapper_main">
-            <div class="l_side">
-                <h1>РАЗРАБОТКА И 
-                    <br/>
-                    ПРОДВИЖЕНИЕ 
-                    <br/>
-                    ВЕБ-САЙТОВ
-                </h1>
-                <h3>
-                    LANDING PAGE, МНОГОСТРАНИЧНЫЕ
-                    <br/>
-                    САЙТЫ, РЕКЛАМА
+        <div class="main">
+            <h1>
+                DIGITAL FROG
+            </h1>
+            <h2>
+                Сделано в Петербурге
+            </h2>
+            <div class="frog">
+                <img src="assets/img/frog.png" alt="frog">
+            </div>
+        </div>
+        <div class="wecan">
+            <div class="wrapper">
+                <h3 class="title title_white">
+                    Что умеем
                 </h3>
-            </div>
-            <div class="r_side">
-                <img src="img/screen.png" alt="main img">
+                <div class="wecan__shelf">
+                    <div class="wecan__item">
+                        <img src="assets/img/can_01.png" alt="wecan">
+                        <span class="wecan__title">
+                            Сайты
+                        </span>
+                    </div>
+                    <div class="wecan__item">
+                        <img src="assets/img/can_02.png" alt="wecan">
+                        <span class="wecan__title">
+                            Интерфейсы
+                        </span>
+                    </div>
+                    <div class="wecan__item">
+                        <img src="assets/img/can_03.png" alt="wecan">
+                        <span class="wecan__title">
+                            Дизайн
+                        </span>
+                    </div>
+                    <div class="wecan__item">
+                        <img src="assets/img/can_04.png" alt="wecan">
+                        <span class="wecan__title">
+                            Процессы
+                        </span>
+                    </div>
+                    <div class="wecan__item">
+                        <img src="assets/img/can_05.png" alt="wecan">
+                        <span class="wecan__title">
+                            SEO и Аналитика
+                        </span>
+                    </div>
+                    <div class="wecan__item">
+                        <img src="assets/img/can_06.png" alt="wecan">
+                        <span class="wecan__title">
+                            SPA | PWA
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="wrapper_service">
-            <div class="name_block">
-                <h1>
-                    <span>УСЛУГИ И СТОИМОСТЬ</span>
-                </h1>
-            </div>
-            <div class="services">
-                <div class="site">
-                    <div class="title">
-                        <img src="img/service_site.svg" alt="service_target">
-                        <p>Ракработка сайтов</p>
-                    </div>
-                    <ul>
-                        <li><span>Landing Page</span></li>
-                        <li><span>Многостраничные сайты</span></li>
-                        <li><span>Сайты-визитки</span></li>
-                    </ul>
-                </div>
-                <div class="target">
-                    <div class="title">
-                        <img src="img/service_target.svg" alt="service_target">
-                        <p>Контекстная реклама</p>
-                    </div>
-                    <ul>
-                        <li><span>Яндекс Директ</span></li>
-                        <li><span>Google Adwords</span></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="grey_wrapper">
-            <div class="wrapper_advantages">
-                <div class="name_block">
-                    <h1>
-                        <span>ПРЕИМУЩЕСТВА</span>
-                    </h1>
-                </div>
-                <div class="advantages">
-                    <div class="advantage">
-                        <img src="img/adv_time.svg" alt="advantage">
-                        <div class="adv_text">
-                            <span>
-                                ВАМ НЕ ПРИДЕТСЯ ЖДАТЬ
+        <div class="projects">
+            <h3 class="title title_black title_bold">
+                кейсы
+            </h3>
+            <div class="projects__columns">
+                <figure>
+                    <a href="#">
+                        <img src="https://cdn.pixabay.com/photo/2018/10/15/16/23/photography-3749383_1280.jpg">
+                        <div class="projects__info">
+                            <span class="projects__title">
+                                AGIMA
                             </span>
-                            <p>
-                                С максимальной ответственностью относимся к согласованным срокам. Точность – залог репутации, а мы ее очень ценим!
-                            </p>
-                        </div>
-                    </div>
-                    <div class="advantage">
-                        <img src="img/adv_err.svg" alt="advantage">
-                        <div class="adv_text">
-                            <span>
-                                БЕЗ ГЛУПЫХ ОТМАЗОК
+                            <span class="projects__theme">
+                                SPA
                             </span>
-                            <p>
-                                У нас не выключают интернет или свет, мы не исчезаем в ходе проекта, никогда не болеем и не имеем семейных проблем!
-                            </p>
                         </div>
-                    </div>
-                    <div class="advantage">
-                        <img src="img/adv_cash.svg" alt="advantage">
-                        <div class="adv_text">
-                            <span>
-                                ПОЭТАПНАЯ ОПЛАТА
-                            </span>
-                            <p>
-                                Мы разделяем оплату на этапы. Вы вносите небольшую предоплату, далее оплачиваете работу поэтапно.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="advantage">
-                        <img src="img/service_target.svg" alt="advantage">
-                        <div class="adv_text">
-                            <span>
-                                МОДНО ≠ ЭФФЕКТИВНО
-                            </span>
-                            <p>
-                                Не штампуем страницы, а решаем задачу — как продать.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                    </a>
+                </figure>
+                
+                <figure>
+                <img src="https://cdn.pixabay.com/photo/2018/07/10/10/40/travel-3528324_960_720.jpg">
+                </figure>
+                
+                <figure>
+                <img src="https://cdn.pixabay.com/photo/2019/08/10/15/47/dahlia-4397208_1280.jpg">
+                </figure>
+            
+                <figure>
+                <img src="https://cdn.pixabay.com/photo/2019/07/13/16/44/woman-4335235_1280.jpg">
+                </figure>
+                
+                <figure>
+                <img src="https://cdn.pixabay.com/photo/2018/08/27/10/11/radio-cassette-3634616_1280.png">
+                </figure>
+                
+                <figure>
+                <img src="https://cdn.pixabay.com/photo/2019/07/29/20/40/night-4371499_1280.jpg">
+                </figure>
+            
+                <figure>
+                <img src="https://cdn.pixabay.com/photo/2019/08/10/19/46/eye-to-eye-4397589_1280.jpg">
+                </figure>	
+            
+                <figure>
+                <img src="https://cdn.pixabay.com/photo/2019/07/25/17/09/camp-4363073_1280.png">
+                </figure>
+            
+                <figure>
+                <img src="https://cdn.pixabay.com/photo/2019/08/11/00/46/brook-4397970_960_720.jpg">
+                </figure>	
             </div>
         </div>
-        <div class="wrapper_development">
-                <div class="name_block">
-                    <h1>
-                        <span>РАЗРАБОТКА САЙТОВ</span>
-                    </h1>
-                </div>
-                <div class="trades">
-                <div class="trade">
-                    <span>
-                        Landing Page
-                    </span>
-                    <p>
-                        Одностраничный сайт, адаптированный для продвижения конкретного товара или услуги. Особая структура лендинга стимулирует пользователя быстрее воспринимать заданную информацию и совершать покупки.
-                    </p>
-                    <a href="#!" class="open_req">Оставить заявку</a>
-                </div>
-                <div class="trade">
-                    <span>
-                        Многостраничные сайты
-                    </span>
-                    <p>
-                        Сайты, которые имеют несколько страниц. В рамках данной услуги мы можем разработать — корпоративный сайт и сайт-витрину (интернет-магазины без корзины).
-                    </p>
-                    <a href="#!" class="open_req">Оставить заявку</a>
-                </div>
-                <div class="trade">
-                    <span>
-                        Сайты-визитки
-                    </span>
-                    <p>
-                        Пакетное решение для представления услуг или небольшого количества товаров. Сайт не имеет яркого акцента на продажу товара или услуги. Он прекрасно подходит для презентации автосервиса салона красоты, юриста.
-                    </p>
-                    <a href="#!" class="open_req">Оставить заявку</a>
-                </div>
-            </div>
+        <div class="presentation">
+            <h3 class="title title_black">
+                Подход к делу
+            </h3>
+            <p class="presentation__text">
+                Наша миссия — решать проблемы девелоперов и помогать бизнесу <br> в глобальном смысле: упрощать процессы, внедрять новые решения, <br> улучшать диджитал-коммуникацию.
+            </p>
+            <a href="#" download="" class="presentation__btn">
+                <img src="assets/img/PDF_file_icon.png" alt="pdf">
+                Скачать презентацию
+            </a>
         </div>
-        <div class="wrapper_targeting">
-            <div class="name_block">
-                <h1>
-                    <span>КОНТЕКСТНАЯ РЕКЛАМА</span>
-                </h1>
+        <div class="animation">
+            <div id="video-bg">
+                <video width="100%" height="auto" preload="auto" poster="assets/img/poster.png" autoplay loop muted playsinline>
+                    <source src="assets/img/animation.mp4" type="video/mp4"></source>
+                </video>
             </div>
-            <div class="trades">
-                <div class="trade">
-                    <span>
-                        Яндекс.Директ
-                    </span>
-                    <p>
-                        Это вид контекстной рекламы, который показывается в поисковой выдаче Яндекса. Если вбить в поиск Яндекса — «купить кухню», то в поиске, будут показаны объявления по данному запросу. Вы платите за каждого привлеченного посетителя, а не просто за размещение рекламного объявления.
-                    </p>
-                    <a href="#!" class="open_req">Оставить заявку</a>
-                </div>
-                <div class="trade">
-                    <span>
-                        Google Adwords
-                    </span>
-                    <p>
-                        Реклама работает по тому же принципу, что и Я.Директ, но показывается в поисковой системе Google. Клиенты частно думают, что эта реклама не так эффективна, так как в России Яндекс популярнее. Но исключив ее, вы рискуете потерять не малую долю клиентов.
-                    </p>
-                    <a href="#!" class="open_req">Оставить заявку</a>
-                </div>
-            </div>
+            <span class="word-digital _anim-items">
+                DIGITAL DIGITAL DIGITAL
+            </span>
+            <span class="word-frog _anim-items">
+                FROG FROG FROG
+            </span>
         </div>
-        <div class="grey_wrapper">
-            <div class="wrapper_contact">
-                <div class="name_block">
-                    <h1>
-                        <span>КОНТАКТЫ</span>
-                    </h1>
-                </div>
-                <div class="l_side">
-                    <div class="point">
-                        <p>телефон:</p>
-                        <a href="tel+89992006889">8(999)200-68-89</a>
-                    </div>
-                    <div class="point">
-                        <p>e-mail:</p>
-                        <a href="mailto:fikachev.dev@gmail.com">fikachev.dev@gmail.com</a>
-                    </div>
-                    <div class="point">
-                        <p>социальные сети:</p>
-                        <a href="https://vk.com/horiizon">Вконтакте</a>
-                        <a href="https://www.instagram.com/fikus.development/">Instagram</a>
-                    </div>
-                </div>
-                <div class="r_side">
-                    <div class="point">
-                        <p><img src="img/doc.svg" alt="doc"></p>
-                        <a href="#!">Реквизиты</a>
-                    </div>
-                    <div class="point">
-                        <p><img src="img/doc.svg" alt="doc"></p>
-                        <a href="#!">Памятка заказчику</a>
-                    </div>
-                    <div class="point">
-                        <p>Работаем удаленно по всей России и СНГ.
-                            <br/>
-                            Общаемся по почте, телефону и скайпу.
-                        </p>
-                    </div>
-                </div>
+        <div class="contact">
+            <form class="contact__form" action="" method="post">
+                <h3 class="contact__title">
+                    Связаться с нами
+                </h3>
+                <input type="text" placeholder="Имя" class="contact__input">
+                <input type="tel" placeholder="8(999)200-XX-XX" class="contact__input">
+                <input type="email" placeholder="e-mail" class="contact__input">
+                <button type="submit" class="contact__btn">Отправить</button>
+            </form>
+            <div class="frog_form">
+                <img src="assets/img/form_bg1.png" alt="frog">
             </div>
         </div>
     </main>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="menu.js"></script>
+
+    <script src="assets/js/animation.js"></script>
 </body>
 </html>
