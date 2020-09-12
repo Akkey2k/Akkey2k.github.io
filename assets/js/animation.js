@@ -67,4 +67,4 @@ function isOpen(){
 
 document.getElementById('ios_video').setAttribute('playsinline','true');
 document.getElementById('ios_video').setAttribute('webkit-playsinline','true');
-document.getElementById('ios_video').play();
+document.getElementById('ios_video')[0].play();
