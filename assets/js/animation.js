@@ -65,5 +65,5 @@ function isOpen(){
   }
 }
 
-document.getElementById('ios_video').setAttribute('playsinline','');
-document.getElementById('ios_video').setAttribute('webkit-playsinline','');
+document.getElementById('ios_video').setAttribute('playsinline','true');
+document.getElementById('ios_video').setAttribute('webkit-playsinline','true');
