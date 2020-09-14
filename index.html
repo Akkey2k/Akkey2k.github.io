@@ -40,7 +40,11 @@
                 Сделано в Петербурге
             </h2>
             <div class="frog">
-                <img src="assets/img/frog.png" alt="frog">
+                <picture>
+                    <source type="image/webp" srcset="assets/img/frog.webp">
+                    <source type="image/png" srcset="assets/img/frog.png">
+                    <img data-src="assets/img/frog.png" class="lazyload" alt="frog">
+                </picture>
             </div>
         </div>
         <div class="wecan">
@@ -154,7 +158,7 @@
         </div>
         <div class="animation">
             <div id="video-bg">
-                <video src="assets/img/animation.mp4" id="ios_video" width="100%" height="auto" preload="auto" poster="assets/img/poster.png" autoplay loop muted="muted" playsinline>
+                <video src="assets/img/animation.mp4" id="ios_video" width="100%" height="auto" preload="auto" poster="assets/img/poster.webp" autoplay loop muted="muted" playsinline>
                     <source src="assets/img/animation.mp4" type="video/mp4">
                 </video>
             </div>
@@ -176,7 +180,11 @@
                 <button type="submit" class="contact__btn">Отправить</button>
             </form>
             <div class="frog_form">
-                <img data-src="assets/img/form_bg1.png" alt="frog" class="lazyload">
+                <picture>
+                    <source type="image/webp" srcset="assets/img/form_bg1.webp">
+                    <source type="image/png" srcset="assets/img/form_bg1.png">
+                    <img data-src="assets/img/form_bg1.png" alt="frog" class="lazyload">
+                </picture>
             </div>
         </div>
     </main>
