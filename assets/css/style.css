@@ -401,6 +401,14 @@
     transform: translate(0, 0);
 }
 
+.projects__info:active{
+    opacity: 1;
+}
+.projects__info:active .projects__title,
+.projects__info:active .projects__theme{
+    transform: translate(0, 0);
+}
+
 
 
 .presentation{
