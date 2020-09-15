@@ -1,6 +1,6 @@
 const touchHover = function() {
     document.querySelectorAll('[data-hover]').forEach(project => {
-        project.addEventListener('touchend', function (e) {
+        project.addEventListener('touchmove', function (e) {
             e.preventDefault();
             const $this = e.target;
             // const onHover = $this.getAttribute('data-hover');
