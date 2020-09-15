@@ -665,8 +665,9 @@
         line-height: 20px;
     }
     .presentation__btn{
-        font-size: 20px;
+        font-size: 100%;
         line-height: 25px;
+        white-space: nowrap;
     }
     .contact__title{
         font-size: 45px;
