@@ -392,6 +392,16 @@
     transition: .3s;
     transform: translate(0, 100px);
 }
+.projects__show{
+    width: 50px !important;
+    height: auto;
+
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    transition: .3s;
+    opacity: 0;
+}
 
 .projects__info:hover{
     opacity: 1;
@@ -400,15 +410,22 @@
 .projects__info:hover .projects__theme{
     transform: translate(0, 0);
 }
-
-.projects__info:active{
+.projects__info:hover .projects__show{
     opacity: 1;
 }
-.projects__info:active .projects__title,
-.projects__info:active .projects__theme{
+
+/* Fix hover mobile*/
+.projects__info.onHover {
+    opacity: 1;
+}
+.projects__info.onHover .projects__title,
+.projects__info.onHover .projects__theme {
     transform: translate(0, 0);
 }
-
+.projects__info.onHover .projects__show{
+    opacity: 1;
+}
+/* Fix hover mobile*/
 
 
 .presentation{
