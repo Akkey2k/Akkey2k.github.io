@@ -27,7 +27,7 @@
 const touchHover = function() {
     const projects = document.querySelectorAll('[data-hover]');
     for(let i = 0;i<projects.length;i++){
-        projects[i].addEventListener('touchend', function (e) {
+        projects[i].addEventListener('touchstart', function (e) {
             //Для таргета
             e.preventDefault();
             const $this = e.target;
