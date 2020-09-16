@@ -3,6 +3,9 @@
     width: 90%;
     margin: 0 auto;
 } */
+body{
+    margin: 0;
+}
 .title{
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
