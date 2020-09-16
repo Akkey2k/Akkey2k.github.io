@@ -64,7 +64,3 @@ function isOpen(){
     dust.classList.toggle('open');
   }
 }
-
-document.getElementById('ios_video').setAttribute('playsinline','true');
-document.getElementById('ios_video').setAttribute('webkit-playsinline','true');
-document.getElementById('ios_video').play();

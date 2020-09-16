@@ -647,6 +647,12 @@ body{
         z-index: 10;
     }
 
+    .main{
+        justify-content: flex-start;
+        padding-top: 50px;
+        box-sizing: border-box;
+    }
+
     .wecan__item{
         width: 50%;
     }
