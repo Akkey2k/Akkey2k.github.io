@@ -471,6 +471,7 @@ body{
     font-size: 30px;
     color: #fff;
     text-decoration: none;
+    white-space: nowrap;
     background-color: #161616;
 
     border-radius: 50px;
@@ -690,7 +691,6 @@ body{
     .presentation__btn{
         font-size: 100%;
         line-height: 25px;
-        white-space: nowrap;
     }
     .contact__title{
         font-size: 45px;
