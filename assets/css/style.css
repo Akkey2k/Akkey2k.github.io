@@ -86,6 +86,7 @@ body{
 .frog img{
     height: 100%;
     width: auto;
+    max-width: 100%;
     display: block;
     z-index: -1;
 }
@@ -137,6 +138,8 @@ body{
 }
 .wecan__shelf{
     width: 100%;
+    max-width: 1740px;
+    margin: 0 auto;
     height: auto;
 
     display: flex;
@@ -343,6 +346,7 @@ body{
 	column-width: 420px;
 	column-gap: 0;
     width: 90%;
+    max-width: 1440px;
     margin: 50px auto;
 }
 

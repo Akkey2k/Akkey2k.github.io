@@ -13,10 +13,10 @@
     <div class="dust"></div>
     <header id="header" class="header">
         <nav class="nav">
-            <a href="#" class="nav__item">о нас</a>
-            <a href="#" class="nav__item">проекты</a>
-            <a href="#" class="nav__item">контакты</a>
-            <a href="#" class="nav__item">join</a>
+            <a href="#about" class="nav__item scroll-to">о нас</a>
+            <a href="#projects" class="nav__item scroll-to">проекты</a>
+            <a href="#contact" class="nav__item scroll-to">контакты</a>
+            <a href="https://finder.vc/vacancies?search=digital%20frog" target="_blank" class="nav__item">join</a>
         </nav>
     </header>
     <div id="menu-toggle">
@@ -54,7 +54,7 @@
                 </video>
             </div>
         </div>
-        <div class="wecan">
+        <div class="wecan" id="about">
             <div class="wrapper">
                 <h3 class="title title_white">
                     >Что <span class="typed-text"></span> <span class="cursor">&nbsp;</span>
@@ -123,7 +123,7 @@
                 </div>
             </div>
         </div>
-        <div class="projects">
+        <div class="projects" id="projects">
             <h3 class="title title_black title_bold">
                 кейсы
             </h3>
@@ -142,6 +142,25 @@
                             </span>
                             <span class="projects__theme">
                                 Дизайн
+                            </span>
+                        </div>
+                    </a>
+                </figure>
+
+                <figure>
+                    <a href="https://modernwall.ru/">
+                        <picture>
+                            <source type="image/webp" data-srcset="assets/projects/modernwall/modernwall.webp">
+                            <source type="image/png" data-srcset="assets/projects/modernwall/modernwall.png">
+                            <img data-src="assets/projects/modernwall/modernwall.png" alt="wecan" class="lazyload">
+                        </picture>
+                        <div class="projects__info" data-hover="hover-on-link">
+                            <img src="assets/img/icon_show.svg" alt="Перейти на проект" class="projects__show">
+                            <span class="projects__title">
+                                Modern Wall
+                            </span>
+                            <span class="projects__theme">
+                                Сайт
                             </span>
                         </div>
                     </a>
@@ -249,14 +268,14 @@
                 FROG FROG FROG
             </span>
         </div>
-        <div class="contact">
-            <form class="contact__form" action="" method="post">
+        <div class="contact" id="contact">
+            <form id="form" class="contact__form" action="send.php" method="post" enctype="multipart/form-data">
                 <h3 class="contact__title">
                     Связаться с нами
                 </h3>
-                <input type="text" placeholder="Имя" class="contact__input">
-                <input type="tel" placeholder="8(999)200-XX-XX" class="contact__input">
-                <input type="email" placeholder="e-mail" class="contact__input">
+                <input type="text" name="name" placeholder="Имя" class="contact__input" required>
+                <input type="tel" name="phone" placeholder="8(999)200-XX-XX" class="contact__input">
+                <input type="email" name="email" placeholder="e-mail" class="contact__input" required>
                 <button type="submit" class="contact__btn">Отправить</button>
             </form>
             <div class="frog_form">
@@ -268,10 +287,12 @@
             </div>
         </div>
     </main>
-
     <script src="assets/js/lazyload.js"></script>
     <script src="assets/js/typing.js"></script>
     <script src="assets/js/onHover.js"></script>
     <script src="assets/js/animation.js"></script>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/mail.js"></script>
 </body>
 </html>
