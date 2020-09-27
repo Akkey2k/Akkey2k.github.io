@@ -1,0 +1,90 @@
+@import "src";
+footer{
+    font-family: $ubuntu;
+}
+.footer{
+    width: 100%;
+    max-width: 1690px;
+    margin: 0 auto;
+    padding: 65px 70px;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    background-color: $blue;
+
+    .logo img {
+        width: 150px;
+        height: auto;
+        filter: grayscale(100%) brightness(250%);
+        opacity: 0.3;
+    }
+}
+.col-logo{
+    margin-right: 15%;
+}
+.col-phones{
+
+    .col-phones__main{
+        color: $white;
+        font-size: 24px;
+
+        display: inline-flex;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    a{
+        display: block;
+        color: $white;
+        font-size: 20px;
+        margin-top: 25px;
+    }
+
+    .call{
+        display: block;
+        width: 30px;
+        height: 30px;
+
+        margin-right: 13px;
+    }
+}
+.col-contact{
+    margin-left: auto;
+
+    a{
+        display: block;
+        color: $white;
+        line-height: 1.2;
+    }
+}
+.text_col-contact{
+    margin: 15px 0;
+}
+.col-contact__social{
+
+    .icon{
+        display: inline-block;
+        width: 30px !important;
+        height: 30px !important;
+    }
+}
+
+@media (max-width: 1024px){
+    .col-logo.col-phones,.col-contact{
+        width: 100%;
+    }
+}
+@media (max-width: 480px){
+    .footer{
+        padding: 35px 5%;
+    }
+    .col-phones,.col-contact{
+        display: none;
+    }
+    .col-logo a{
+        display: none;
+    }
+}
