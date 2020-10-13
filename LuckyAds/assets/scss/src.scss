@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+$inter : 'Inter', 'Arial', sans-serif;
+
+// colors
+$black      : #333333;
+$green      : #118976;
+$green_l    : #089c84;
+$red        : #FF2C2C;
+
+@mixin wrapper {
+    width: 80%;
+    max-width: 1120px;
+    height: auto;
+    margin: 0 auto;
+}
